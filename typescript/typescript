@@ -1,0 +1,15 @@
+Typescript es un superset de javascript o javascript con tipos.
+El navegador puede interpretar unicamente javascript, pero este es un lenguaje debilmente tipado, esto quiere decir que las variables no se definen con un tipo de dato si no que va tomando valor a lo largo de la ejecucion.
+El problema viene cuando el desarrollo se hace mas grande, es dificil de mantener y escalar sin tener tipados los datos ya que podemos cometer errorres sin saberlo ya que javascript no detecta ningun error aunque logicamente si lo este.
+Para solucionar estos problemas, nacio este superset Typescript que nos permite ordenar y tipar nuestro codigo con distintas caracteristicas adicionales.
+
+Frameworks que utilizan TS:
+-Angular
+-React
+-Vue, etc
+
+Porque aprenderlo:
+-Standard en el mercado
+-Prevencion de errores en tiempo de ejecucion
+-Integracion con IDES
+-Gran herramienta para jrs
