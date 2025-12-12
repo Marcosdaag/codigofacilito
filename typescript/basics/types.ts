@@ -39,3 +39,15 @@ response5?.toString();
 //TS nos permite crear nuestros propios tipos de datos y nos ayuda a centralizar la logica de algunos tipos de datos
 type ResponseTypes = string | undefined;
 let response6: ResponseTypes; //Le decimos a response6 que es un tipo de dato "ResponseTypes" definido anteriormente
+
+//Tpye assertion > consiste en castear los tipos de datos
+
+//En este caso message no tiene un valor de tipo any por lo que el autocompletado de metodos no funcionaria
+let message: any = "";
+
+(message as string).toLowerCase(); //De esta manera le decimos que message va a ser un string y podemos usar toLowerCase
+
+let messageUpper = (message as string).toUpperCase();
+
+//Tambien podemos cambiar el tipo de dato de message de esta forma
+let messageToString = <string>message;
