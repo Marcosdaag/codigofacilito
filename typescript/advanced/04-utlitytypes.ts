@@ -44,18 +44,18 @@ const cats: Record<CatName, CatInfo> = {
 
 //Pick <T, Properties>
 //Puedo crear elementos que pidan solamente ciertos campos de una interface principal
-interface Pending{
+interface Pending {
     tittle: string;
     description: string;
     completed: boolean;
 };
 
-type PendingPreview = Pick<Pending,"tittle" | "completed">;
+type PendingPreview = Pick<Pending, "tittle" | "completed">;
 
-const otherPending: PendingPreview = {completed: false, tittle: "Cortar el pasto"};
+const otherPending: PendingPreview = { completed: false, tittle: "Cortar el pasto" };
 
 //Omit<T, Properties>
 //Todo lo contrario a pick, omite todos lso campos seleccionados
 type PendingOmited = Omit<Pending, "completed" | "description">;
 
-const newPendingOmit: PendingOmited = {tittle: "Hacer la tarea"}
+const newPendingOmit: PendingOmited = { tittle: "Hacer la tarea" }

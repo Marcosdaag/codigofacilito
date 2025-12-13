@@ -7,7 +7,7 @@
 */
 
 //Por defecto los enums toman valor de 0 en adelante pero podemos asignarle el valor que queramos ya sea de tipo Number o no
-enum Users{
+enum Users {
     NormalUser,
     Payeduser,
     AdminUser = 105

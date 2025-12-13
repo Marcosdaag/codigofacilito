@@ -1,6 +1,6 @@
 type Person = {
     name: string,
-    code: string|number,
+    code: string | number,
     description?: string
 }
 

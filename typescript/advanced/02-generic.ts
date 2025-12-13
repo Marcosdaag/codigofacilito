@@ -16,7 +16,7 @@ const myValue: myInterface<number> = {
 class MyClass<T> {
     field: T;
 
-    constructor(field:T){
+    constructor(field: T) {
         this.field = field;
     }
 };
@@ -28,6 +28,6 @@ const myObject: MyClass<string> = new MyClass("field");
 /* 
 Tengo una funcion que recibe un dato de tipo T y que devuelve una promesa con un dato tipo T
 */
-function getData<T>(id:string): Promise<T> | void {}
+function getData<T>(id: string): Promise<T> | void { }
 
 

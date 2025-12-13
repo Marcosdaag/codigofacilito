@@ -8,5 +8,5 @@ export interface User {
 };
 
 export const generateId = () => {
-    return Math.floor(Math.random()*100);
+    return Math.floor(Math.random() * 100);
 };

@@ -7,8 +7,8 @@ interface IPerson {
 }
 
 //Crea el objeto y  puede tener implementaciones
-class Person{
-    sayHello(){
+class Person {
+    sayHello() {
         return "hola";
     }
 }
@@ -21,10 +21,10 @@ newPerson.sayHello();
 class Admin implements IPerson {
     name = "Marcos"
 
-    sayHello(){
+    sayHello() {
         return "hola";
     }
 }
 
 //Extends nos completa automaticamente
-class NormalUser extends Person {}
+class NormalUser extends Person { }

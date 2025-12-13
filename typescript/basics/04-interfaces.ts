@@ -7,7 +7,7 @@ interface IPerson {
     description?: string //El signo ? al final es para que un parametro sea opcional al momento de isntanciarlo
 
     //Incluso podemos definir meotodos y sus valores de retorno
-    sayHello?: ()=> string;
+    sayHello?: () => string;
 }
 
 let response0: IPerson = {

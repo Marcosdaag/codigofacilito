@@ -11,11 +11,11 @@ class Animal {
     protected identity: string = "111";
 
     //El constructor es la funcion que representa a la clase y es la primer funcion que se ejecuta al crear el objeto, podemos calcular cosas o asignar datos, al momento de heredar esta funcion se ejecutra de forma automatica
-    constructor(){
+    constructor() {
 
     }
 
-    sayHi(){
+    sayHi() {
         console.log("Grr", this.age);
     }
 }

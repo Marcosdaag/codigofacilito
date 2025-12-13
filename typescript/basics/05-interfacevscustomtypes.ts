@@ -36,7 +36,7 @@ const myAdmin: Admin = {
 
 //Las interfaces se pueden acoplar entre si sin que lo hagamos manualmente
 interface Developer {
-    name:string;
+    name: string;
     stack: string[];
 }
 
@@ -45,7 +45,7 @@ interface Developer {
 }
 
 //Al definir una constante con el valor de Developer tiene que mergear ambas interfaces, por lo que nos pode las propiedades de ambas
-const me: Developer  = {
+const me: Developer = {
     name: '',
     phone: '',
     stack: []
